@@ -1,0 +1,19 @@
+@import 'functions/rem-calc';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  margin: rem-calc(-22px);
+  height: 100%;
+
+  > header {
+    padding: rem-calc(10px);
+    background-color: purple;
+    color: white;
+  }
+
+  > .body {
+    padding: rem-calc(10px);
+    flex: 1;
+  }
+}
